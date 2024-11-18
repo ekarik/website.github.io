@@ -1,0 +1,265 @@
+*{
+    overscroll-behavior: none;
+    margin: 0;
+
+    
+
+}
+
+body{
+    cursor: url(jujutsu-kaisen-yuji-itadori-animated-custom-cursor-ezgif.com-resize.gif), auto;
+    background-color: #1f1d4e;
+
+}
+
+.TitleContainer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: aliceblue;
+    position: relative; /* This makes the container a reference point for positioning */
+    height: 100vh; /* Full screen height */
+    width: 100%;
+    color: white; /* Example text color */
+    overflow: hidden; /* Ensures content stays within bounds */
+    text-shadow: 5px 5px black;
+}
+
+.TitleContainer h1{
+    position: absolute;
+    text-align: left;
+    top: 10px; /* Distance from the top */
+    left: 10px; /* Distance from the left */
+
+}
+
+
+.TitleContainer h2{
+    position: absolute;
+    bottom: 10px; /* Distance from the bottom */
+    right: 10px; /* Distance from the left */
+
+    
+}
+
+.Navcontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    gap: 100px;
+    background-color:#1f1d4e;
+    align-items: center;
+
+
+
+
+
+
+}
+
+.Navcontainer div{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 35px;
+    border-radius: 35px;
+    background: linear-gradient(145deg, #1c1a46, #211f53);
+    box-shadow:  14px 14px 43px #141332,
+                 -14px -14px 43px #2a276a;
+
+}
+
+
+.para1{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+
+    height: 150vh; /* Full viewport height */
+    text-align: center; /* Center text content */
+    background-color: #1f1d4e;
+    
+
+ 
+
+}
+
+
+.box1{
+    color: white;
+    margin-top: 300px;
+    width: 1000px;
+    height: 300px;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(145deg, #1c1a46, #211f53);
+    box-shadow:  14px 14px 43px #141332,
+                 -14px -14px 43px #2a276a;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+   /* border:solid 10px white;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 35px;*/
+
+    
+
+
+.titleone{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.para1 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+
+.para1 h1{
+
+    text-shadow: 5px 5px 10px black;
+}
+
+
+.characterstitle{
+    width: 100%;
+    position: relative;
+
+
+
+
+   /* display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 50px;
+    color: white;*/
+}
+
+.characterstitle img{
+    width: 100%;
+    outline: 5px solid white;
+    filter: blur(5px);
+
+
+
+}
+
+.characterstitle h1{
+    position: absolute;
+    color: white;
+    top: 230px;
+    left: 450px;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    text-shadow: 5px 5px black;
+
+
+
+}
+
+
+.characters{
+    display: flex;
+    background-color: #1f1d4e;
+    margin-top: 200px;
+
+    
+}
+
+.Gojobg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 33.333%;
+
+
+
+
+}
+
+.Gojobg img{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    filter: blur(5px);
+
+    
+
+
+
+}
+
+.Gojobg :hover{
+    filter: blur(0);
+    transition: 500ms;
+    scale: 1.2;
+
+}
+
+.megumibg{
+    display: flex;
+    justify-content: center;
+    width: 33.333%;
+
+
+    
+
+}
+
+.megumibg img{
+        width: 200px;
+        height: 300px;
+        filter: blur(5px);
+
+
+
+}
+
+.megumibg :hover{
+    filter: blur(0);
+    transition: 500ms;
+    scale: 1.2;
+
+}
+
+.yujibg{
+    display: flex;
+    justify-content: center;
+    width: 33.333%;
+
+}
+
+.yujibg :hover{
+    filter: blur(0);
+    transition: 500ms;
+    scale: 1.2;
+
+
+}
+
+.yujibg img{
+    width: 200px;
+    height: 300px;
+    filter: blur(5px);
+
+}
+
